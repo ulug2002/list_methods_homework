@@ -4,7 +4,11 @@ def main(numbers,i):
     Args:
         numbers(list): parameter
         i(int): parameter
-    Returns:
+    Returns: 
         list: return answer
     """
-    return
+    numbers = [4, 7, 3, 2, 8]
+    i = 2
+    numbers.pop(i)
+    return numbers
+print(main(1,1))
